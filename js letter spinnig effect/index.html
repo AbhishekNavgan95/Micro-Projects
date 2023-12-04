@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        background-color: #222;
+      }
+      .wrapper {
+        width: 100%;
+        height: 100vh;
+        color: #aaa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      p {
+        font-size: 2rem;
+        width: 500px;
+      }
+      .content {
+        color: rgb(255, 136, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>This is a <span class="content hover">Heading</span></h1>
+      <p>
+        <span class="content hover">Lorem,</span> dolor sit amet consectetur
+         elit. Inventore odit harum quod nam delectus <span class="content hover">adipisicing</span> reprehenderit
+         sint, possimus nemo vitae
+        <span class="content hover">molestias</span>
+        tempora nesciunt enim beatae molestias cupiditate vero debitis <span class="content hover">tempora</span>qui at!
+      </p>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+      integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
